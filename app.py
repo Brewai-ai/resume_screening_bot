@@ -13,8 +13,8 @@ from langchain.chains.question_answering import load_qa_chain
 def main():
     load_dotenv()
    
-    st.set_page_config(page_title="CV")
-    st.header("Ask about cv")
+    st.set_page_config(page_title="Resume_Screening Bot")
+    st.header("Resume_Screening Bot")
     
 
     # upload file
